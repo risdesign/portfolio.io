@@ -1,0 +1,5010 @@
+:root {
+	--web-view-ids: index,web,android;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-to-fit: false;
+	--web-scale-to-fit-type: default;
+	--web-enable-scale-up: false;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: false;
+	--web-center-vertically: false;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: true;
+	--web-application: false;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#index,
+#web,
+#android {
+	display: none;
+}
+@media (min-width: 1280px) and (max-width: 1919px) {
+	.mediaViewInfo {
+		--web-view-name: index;
+		--web-view-id: index;
+		--web-scale-on-resize: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#index {
+		position: absolute;
+		display: block;
+		width: 1280px;
+		height: 5591px;
+		background-color: rgba(245,245,245,1);
+		overflow: hidden;
+		--web-view-name: index;
+		--web-view-id: index;
+		--web-scale-on-resize: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#HEADER {
+		position: absolute;
+		width: 1280px;
+		height: 3481px;
+		left: 0px;
+		top: -80px;
+		overflow: visible;
+	}
+	#BACKGROUND {
+		fill: rgba(255,255,255,1);
+	}
+	.BACKGROUND {
+		position: absolute;
+		overflow: visible;
+		width: 1280px;
+		height: 3423px;
+		left: 0px;
+		top: 58px;
+	}
+	#ME {
+		position: absolute;
+		width: 1280px;
+		height: 960px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#DESAINERGRAFIS {
+		left: 511px;
+		top: 600px;
+		position: absolute;
+		overflow: visible;
+		width: 253px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2.28px;
+	}
+	#INSTAGRAM {
+		opacity: 0.5;
+		position: absolute;
+		width: 27.333px;
+		height: 27.333px;
+		left: 687.724px;
+		top: 706px;
+		overflow: visible;
+	}
+	#WHATSAPP {
+		opacity: 0.5;
+		position: absolute;
+		width: 27.611px;
+		height: 27.796px;
+		left: 626.003px;
+		top: 704.874px;
+		overflow: visible;
+	}
+	#LINKEDIN {
+		opacity: 0.5;
+		position: absolute;
+		width: 27.611px;
+		height: 25.817px;
+		left: 564.942px;
+		top: 705.795px;
+		overflow: visible;
+	}
+	#ABOUT {
+		position: absolute;
+		width: 1187px;
+		height: 1135.082px;
+		left: 93px;
+		top: 782px;
+		overflow: visible;
+	}
+	#SKILL {
+		position: absolute;
+		width: 943.81px;
+		height: 104.416px;
+		left: 0px;
+		top: 1030.667px;
+		overflow: visible;
+	}
+	#Adobe_Skill {
+		left: 0px;
+		top: 0.333px;
+		position: absolute;
+		overflow: visible;
+		width: 147px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#Lainnya {
+		left: 754.476px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 101px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#icon {
+		position: absolute;
+		width: 943.476px;
+		height: 58.667px;
+		left: 0.333px;
+		top: 45.749px;
+		overflow: visible;
+	}
+	#word {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 82.949px;
+		height: 52.027px;
+		left: 737.736px;
+		top: 1.75px;
+		overflow: visible;
+	}
+	#excel {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 53.009px;
+		height: 50.555px;
+		left: 820.018px;
+		top: 2.416px;
+		overflow: visible;
+	}
+	#ae {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 49.082px;
+		height: 49.082px;
+		left: 243.238px;
+		top: 4.694px;
+		overflow: visible;
+	}
+	#xd {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 49.082px;
+		height: 49.082px;
+		left: 304.047px;
+		top: 4.694px;
+		overflow: visible;
+	}
+	#pr {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 49.082px;
+		height: 49.082px;
+		left: 182.428px;
+		top: 4.56px;
+		overflow: visible;
+	}
+	#ai {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 49.082px;
+		height: 49.082px;
+		left: 60.809px;
+		top: 4.56px;
+		overflow: visible;
+	}
+	#lr {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 49.082px;
+		height: 49.082px;
+		left: 121.619px;
+		top: 4.694px;
+		overflow: visible;
+	}
+	#ps {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 49.082px;
+		height: 49.082px;
+		left: 0px;
+		top: 4.694px;
+		overflow: visible;
+	}
+	#figma {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 58.667px;
+		height: 58.667px;
+		left: 884.81px;
+		top: 0px;
+		overflow: visible;
+	}
+	#BIODATA {
+		position: absolute;
+		width: 311px;
+		height: 111px;
+		left: 687px;
+		top: 807px;
+		overflow: visible;
+	}
+	#BIODATA_ANSWER {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+	}
+	#BIODATA_TEXT {
+		left: 95px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 217px;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+	}
+	#SOFTSKILL {
+		position: absolute;
+		width: 504px;
+		height: 117px;
+		left: 0px;
+		top: 808px;
+		overflow: visible;
+	}
+	#SOFTSKILL_EMPTY_BAR {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR {
+		position: absolute;
+		overflow: visible;
+		width: 344px;
+		height: 13px;
+		left: 160px;
+		top: 0px;
+	}
+	#SOFTSKILL_EMPTY_BAR_ {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_ {
+		position: absolute;
+		overflow: visible;
+		width: 344px;
+		height: 14px;
+		left: 160px;
+		top: 51px;
+	}
+	#SOFTSKILL_EMPTY_BAR_ba {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_ba {
+		position: absolute;
+		overflow: visible;
+		width: 344px;
+		height: 13px;
+		left: 160px;
+		top: 26px;
+	}
+	#SOFTSKILL_EMPTY_BAR_bb {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_bb {
+		position: absolute;
+		overflow: visible;
+		width: 344px;
+		height: 14px;
+		left: 160px;
+		top: 77px;
+	}
+	#SOFTSKILL_EMPTY_BAR_bc {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_bc {
+		position: absolute;
+		overflow: visible;
+		width: 344px;
+		height: 13px;
+		left: 160px;
+		top: 104px;
+	}
+	#SOFTSKILL_STATUS_BAR {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR {
+		position: absolute;
+		overflow: visible;
+		width: 268px;
+		height: 13px;
+		left: 160px;
+		top: 0px;
+	}
+	#SOFTSKILL_STATUS_BAR_bd {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_bd {
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		height: 14px;
+		left: 160px;
+		top: 51px;
+	}
+	#SOFTSKILL_STATUS_BAR_be {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_be {
+		position: absolute;
+		overflow: visible;
+		width: 250px;
+		height: 13px;
+		left: 160px;
+		top: 26px;
+	}
+	#SOFTSKILL_STATUS_BAR_bf {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_bf {
+		position: absolute;
+		overflow: visible;
+		width: 172px;
+		height: 14px;
+		left: 160px;
+		top: 77px;
+	}
+	#SOFTSKILL_STATUS_BAR_bg {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_bg {
+		position: absolute;
+		overflow: visible;
+		width: 172px;
+		height: 13px;
+		left: 160px;
+		top: 104px;
+	}
+	#SOFTSKILL_TEXT {
+		left: 0px;
+		top: 1px;
+		position: absolute;
+		overflow: visible;
+		width: 89px;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_6 {
+		fill: rgba(222,222,222,1);
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 2px;
+		height: 118px;
+		left: 598px;
+		top: 806px;
+	}
+	#Rectangle_7 {
+		fill: rgba(222,222,222,1);
+	}
+	.Rectangle_7 {
+		width: 2px;
+		height: 1069px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0.333px, 0px) matrix(1,0,0,1,548.1666,449.5) rotate(-90deg);
+		transform-origin: center;
+	}
+	#Rectangle_8 {
+		fill: rgba(222,222,222,1);
+	}
+	.Rectangle_8 {
+		width: 2px;
+		height: 1070px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0.333px, 0px) matrix(1,0,0,1,545.6666,207) rotate(-90deg);
+		transform-origin: center;
+	}
+	#TENTANG {
+		position: absolute;
+		width: 1187px;
+		height: 799px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ABOUT_BACKGROUND {
+		position: absolute;
+		width: 1065px;
+		height: 799px;
+		left: 122px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ABOUT_JUDUL {
+		left: 0px;
+		top: 183px;
+		position: absolute;
+		overflow: visible;
+		width: 86px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#RESUME_BUTTON {
+		position: absolute;
+		width: 124px;
+		height: 40px;
+		left: 105px;
+		top: 645px;
+		overflow: visible;
+	}
+	#resumekotak {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.resumekotak {
+		position: absolute;
+		overflow: visible;
+		width: 124px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#resume {
+		left: 33.835px;
+		top: 10px;
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#CV_BUTTON {
+		position: absolute;
+		width: 87px;
+		height: 40px;
+		left: 0px;
+		top: 645px;
+		overflow: visible;
+	}
+	#cvkotak {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.cvkotak {
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#Cv {
+		left: 33px;
+		top: 10px;
+		position: absolute;
+		overflow: visible;
+		width: 21px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#ABOUT_TEXT {
+		left: 0px;
+		top: 233px;
+		position: absolute;
+		overflow: visible;
+		width: 398px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(0,0,0,1);
+	}
+	#EXPERIENCE {
+		position: absolute;
+		width: 1280px;
+		height: 680px;
+		left: 0px;
+		top: 2006px;
+		overflow: visible;
+	}
+	#PENGALAMAN_BACKGROUND {
+		position: absolute;
+		width: 1280px;
+		height: 680px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#PENGALAMAN_TEXT {
+		position: absolute;
+		width: 868px;
+		height: 408px;
+		left: 93px;
+		top: 128px;
+		overflow: visible;
+	}
+	#SERTIFIKAT_BUTTON {
+		position: absolute;
+		width: 140px;
+		height: 40px;
+		left: 115px;
+		top: 368px;
+		overflow: visible;
+	}
+	#sertifikatkotak {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.sertifikatkotak {
+		position: absolute;
+		overflow: visible;
+		width: 140px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#sertifikattext {
+		left: 42.502px;
+		top: 10.667px;
+		position: absolute;
+		overflow: visible;
+		width: 53px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#KONTAK_BUTTON {
+		position: absolute;
+		width: 105px;
+		height: 40px;
+		left: 0px;
+		top: 368px;
+		overflow: visible;
+	}
+	#kontakkotak {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.kontakkotak {
+		position: absolute;
+		overflow: visible;
+		width: 105px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#kontak {
+		left: 28.835px;
+		top: 10.667px;
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#KASIR {
+		position: absolute;
+		width: 449px;
+		height: 50px;
+		left: 2px;
+		top: 263px;
+		overflow: visible;
+	}
+	#KASIR_TEXT {
+		left: 0px;
+		top: 32px;
+		position: absolute;
+		overflow: visible;
+		width: 450px;
+		white-space: nowrap;
+		line-height: 23px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#KASIR_SUB {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 361px;
+		white-space: nowrap;
+		line-height: 23px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#KASIR_RECTANGLE {
+		fill: rgba(42,42,42,1);
+	}
+	.KASIR_RECTANGLE {
+		position: absolute;
+		overflow: visible;
+		width: 145px;
+		height: 2px;
+		left: 0px;
+		top: 24px;
+	}
+	#DESAINER {
+		position: absolute;
+		width: 784px;
+		height: 70px;
+		left: 2px;
+		top: 168px;
+		overflow: visible;
+	}
+	#DESAINER_TEXT {
+		left: 0px;
+		top: 31px;
+		position: absolute;
+		overflow: visible;
+		width: 785px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#DESAINER_SUB {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 391px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#DESAINER_RECTANGLE {
+		fill: rgba(42,42,42,1);
+	}
+	.DESAINER_RECTANGLE {
+		position: absolute;
+		overflow: visible;
+		width: 145px;
+		height: 2px;
+		left: 0px;
+		top: 23px;
+	}
+	#AKUNTANSI {
+		position: absolute;
+		width: 866px;
+		height: 70px;
+		left: 2px;
+		top: 66px;
+		overflow: visible;
+	}
+	#AKUNTANSI_TEXT {
+		left: 0px;
+		top: 31px;
+		position: absolute;
+		overflow: visible;
+		width: 867px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#AKUNTANSI_SUB {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 349px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#AKUNTANSI_RECTANGLE {
+		fill: rgba(42,42,42,1);
+	}
+	.AKUNTANSI_RECTANGLE {
+		position: absolute;
+		overflow: visible;
+		width: 145px;
+		height: 2px;
+		left: 0px;
+		top: 23px;
+	}
+	#EXPERIENCE_TEXT {
+		left: 2px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 158px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2px;
+	}
+	#EDUCATION {
+		position: absolute;
+		width: 1280px;
+		height: 515px;
+		left: 0px;
+		top: 2686px;
+		overflow: visible;
+	}
+	#EDUCATION_BACKGROUND {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.EDUCATION_BACKGROUND {
+		position: absolute;
+		overflow: visible;
+		width: 1280px;
+		height: 515px;
+		left: 0px;
+		top: 0px;
+	}
+	#NILAI_BUTTON {
+		position: absolute;
+		width: 105px;
+		height: 40px;
+		left: 93px;
+		top: 360px;
+		overflow: visible;
+	}
+	#nilaikotak {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak {
+		position: absolute;
+		overflow: visible;
+		width: 105px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#Nilai {
+		left: 40px;
+		top: 11px;
+		position: absolute;
+		overflow: visible;
+		width: 25px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#SERTIFIKAT_BUTTON_cm {
+		position: absolute;
+		width: 136px;
+		height: 40px;
+		left: 212px;
+		top: 360px;
+		overflow: visible;
+	}
+	#sertifikatkotak_cn {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.sertifikatkotak_cn {
+		position: absolute;
+		overflow: visible;
+		width: 136px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sertifikat {
+		left: 40px;
+		top: 11px;
+		position: absolute;
+		overflow: visible;
+		width: 53px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#STIKI_LOGO {
+		opacity: 0.25;
+		position: absolute;
+		width: 350px;
+		height: 263px;
+		left: 911px;
+		top: 154px;
+		overflow: visible;
+	}
+	#EDUCATION_JUDUL {
+		left: 93px;
+		top: 106px;
+		position: absolute;
+		overflow: visible;
+		width: 148px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#EDUCATION_GROUP {
+		position: absolute;
+		width: 872px;
+		height: 98px;
+		left: 93px;
+		top: 207px;
+		overflow: visible;
+	}
+	#EDUCATION_TEXT {
+		left: 0px;
+		top: 38px;
+		position: absolute;
+		overflow: visible;
+		width: 873px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(0,0,0,1);
+	}
+	#EDUCATION_SUB {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 460px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(0,0,0,1);
+	}
+	#OUTOFWORK {
+		position: absolute;
+		width: 1280px;
+		height: 2219px;
+		left: 0px;
+		top: 3201px;
+		overflow: visible;
+	}
+	#OUTOFWORKBACKGROUND {
+		fill: rgba(0,0,0,1);
+	}
+	.OUTOFWORKBACKGROUND {
+		position: absolute;
+		overflow: visible;
+		width: 1280px;
+		height: 2219px;
+		left: 0px;
+		top: 0px;
+	}
+	#IG {
+		position: absolute;
+		width: 1280px;
+		height: 475px;
+		left: 0px;
+		top: 1598px;
+		overflow: visible;
+	}
+	#IG_BACKGROUND {
+		position: absolute;
+		width: 1280px;
+		height: 475px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#IG_GROUP {
+		position: absolute;
+		width: 310px;
+		height: 190px;
+		left: 94px;
+		top: 143px;
+		overflow: visible;
+	}
+	#IG_BUTTON {
+		position: absolute;
+		width: 143px;
+		height: 40px;
+		left: 0px;
+		top: 150px;
+		overflow: visible;
+	}
+	#nilaikotak_c {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_c {
+		position: absolute;
+		overflow: visible;
+		width: 143px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak {
+		left: 37px;
+		top: 13px;
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#IG_SUB {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 138px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+	#IG_TEXT {
+		left: 0px;
+		top: 55px;
+		position: absolute;
+		overflow: visible;
+		width: 311px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#NFT {
+		position: absolute;
+		width: 1280px;
+		height: 475px;
+		left: 0px;
+		top: 1097px;
+		overflow: visible;
+	}
+	#NFT_BACKGROUND {
+		fill: transparent;
+	}
+	.NFT_BACKGROUND {
+		overflow: hidden;
+		position: absolute;
+		width: 1280px;
+		height: 475px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#NFT_GROUP {
+		position: absolute;
+		width: 369px;
+		height: 210px;
+		left: 94px;
+		top: 133px;
+		overflow: visible;
+	}
+	#NFT_BUTTON {
+		position: absolute;
+		width: 143px;
+		height: 40px;
+		left: 0px;
+		top: 170px;
+		overflow: visible;
+	}
+	#nilaikotak_da {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_da {
+		position: absolute;
+		overflow: visible;
+		width: 143px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak_c {
+		left: 37px;
+		top: 13px;
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#NFT_SUB {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 113px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+	#NFT_TEXT {
+		left: 0px;
+		top: 55px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#DG {
+		position: absolute;
+		width: 1280px;
+		height: 474px;
+		left: 0px;
+		top: 596px;
+		overflow: visible;
+	}
+	#DG_BACKGROUND {
+		fill: rgba(82,161,164,1);
+	}
+	.DG_BACKGROUND {
+		position: absolute;
+		overflow: visible;
+		width: 1280px;
+		height: 474px;
+		left: 0px;
+		top: 0px;
+	}
+	#DG_FOTO {
+		position: absolute;
+		width: 1280px;
+		height: 474px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#n_X1 {
+		position: absolute;
+		width: 197px;
+		height: 196px;
+		left: 683px;
+		top: 0px;
+		overflow: visible;
+	}
+	#PONDS {
+		position: absolute;
+		width: 198px;
+		height: 199px;
+		left: 889px;
+		top: 88px;
+		overflow: visible;
+	}
+	#PIA {
+		position: absolute;
+		width: 140px;
+		height: 141px;
+		left: 889px;
+		top: 295px;
+		overflow: visible;
+	}
+	#Cover {
+		position: absolute;
+		width: 153px;
+		height: 277px;
+		left: 1096px;
+		top: 10px;
+		overflow: visible;
+	}
+	#Mask_Group_1 {
+		position: absolute;
+		width: 1271px;
+		height: 474px;
+		left: 9px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Mask_Group_2 {
+		position: absolute;
+		width: 1267px;
+		height: 474px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Mask_Group_3 {
+		position: absolute;
+		width: 1267px;
+		height: 474px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#DG_GROUP {
+		position: absolute;
+		width: 394px;
+		height: 210px;
+		left: 94px;
+		top: 132px;
+		overflow: visible;
+	}
+	#DG_BUTTON {
+		position: absolute;
+		width: 143px;
+		height: 40px;
+		left: 0px;
+		top: 170px;
+		overflow: visible;
+	}
+	#nilaikotak_do {
+		fill: transparent;
+		stroke: rgba(142,185,201,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_do {
+		position: absolute;
+		overflow: visible;
+		width: 143px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak_dp {
+		left: 37px;
+		top: 13px;
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(142,185,201,1);
+		letter-spacing: -0.6px;
+	}
+	#DG_SUB {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 147px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+	#DG_TEXT {
+		left: 0px;
+		top: 56px;
+		position: absolute;
+		overflow: visible;
+		width: 395px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#UIUX {
+		position: absolute;
+		width: 1280px;
+		height: 474.667px;
+		left: 0px;
+		top: 94.333px;
+		overflow: visible;
+	}
+	#UIUX_BACKGROUND_du {
+		fill: url(#UIUX_BACKGROUND_du);
+	}
+	.UIUX_BACKGROUND_du {
+		overflow: visible;
+		position: absolute;
+		width: 1280px;
+		height: 474.667px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#UIUX1 {
+		position: absolute;
+		width: 395px;
+		height: 447px;
+		left: 871px;
+		top: 13.667px;
+		overflow: visible;
+	}
+	#SHADOW1 {
+		fill: transparent;
+	}
+	.SHADOW1 {
+		filter: drop-shadow(15px 11px 12px rgba(0, 0, 0, 0.471));
+		position: absolute;
+		overflow: visible;
+		width: 223px;
+		height: 438px;
+		left: 107px;
+		top: 24px;
+	}
+	#UI1 {
+		fill: transparent;
+	}
+	.UI1 {
+        border-radius: 30px;
+		overflow: hidden;
+		position: absolute;
+		width: 181px;
+		height: 398px;
+		left: 107px;
+		top: 27px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#PHONE1 {
+		position: absolute;
+		width: 395px;
+		height: 447px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#UIUX2 {
+		position: absolute;
+		width: 394px;
+		height: 447px;
+		left: 633px;
+		top: 13.667px;
+		overflow: visible;
+	}
+	#SHADOW2 {
+		fill: transparent;
+	}
+	.SHADOW2 {
+		filter: drop-shadow(15px 11px 12px rgba(0, 0, 0, 0.471));
+		position: absolute;
+		overflow: visible;
+		width: 224px;
+		height: 438px;
+		left: 106px;
+		top: 24px;
+	}
+	#UI2 {
+		fill: transparent;
+	}
+	.UI2 {
+        border-radius: 30px;
+		overflow: hidden;
+		position: absolute;
+		width: 182px;
+		height: 398px;
+		left: 106px;
+		top: 27px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#PHONE2 {
+		position: absolute;
+		width: 394px;
+		height: 447px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#UIUX_GROUP {
+		position: absolute;
+		width: 389px;
+		height: 210px;
+		left: 94px;
+		top: 132.667px;
+		overflow: visible;
+	}
+	#UIUX_BUTTON {
+		position: absolute;
+		width: 143px;
+		height: 40px;
+		left: 0px;
+		top: 170px;
+		overflow: visible;
+	}
+	#nilaikotak_d {
+		fill: transparent;
+		stroke: rgba(138,138,138,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_d {
+		position: absolute;
+		overflow: visible;
+		width: 143px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak_d {
+		left: 37px;
+		top: 13px;
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(138,138,138,1);
+		letter-spacing: -0.6px;
+	}
+	#UIUX_SUB {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 137px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+	#UIUX_TEXT {
+		left: 0px;
+		top: 55px;
+		position: absolute;
+		overflow: visible;
+		width: 390px;
+		white-space: nowrap;
+		line-height: 22px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#OUTOFWORKTEXT {
+		left: 93px;
+		top: 38px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		white-space: nowrap;
+		line-height: 30px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(225,225,225,1);
+		letter-spacing: 2px;
+	}
+	#FOOTER {
+		position: absolute;
+		width: 1280px;
+		height: 171px;
+		left: 0px;
+		top: 5420px;
+		overflow: visible;
+	}
+	#BACKGROUND_FOOTER {
+		fill: rgba(0,0,0,1);
+	}
+	.BACKGROUND_FOOTER {
+		position: absolute;
+		overflow: visible;
+		width: 1280px;
+		height: 171px;
+		left: 0px;
+		top: 0px;
+	}
+	#BARCODE {
+		position: absolute;
+		width: 66px;
+		height: 66px;
+		left: 205px;
+		top: 53px;
+		overflow: visible;
+	}
+	#KONTAK_ed {
+		left: 434px;
+		top: 51px;
+		position: absolute;
+		overflow: visible;
+		width: 126px;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -4.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#SOSMED {
+		left: 315px;
+		top: 51px;
+		position: absolute;
+		overflow: visible;
+		width: 74px;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -4.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(167,167,167,1);
+	}
+	#EMAIL {
+		left: 697px;
+		top: 53px;
+		position: absolute;
+		overflow: visible;
+		width: 54px;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -4.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(167,167,167,1);
+	}
+	#TAMBAKSARI {
+		left: 799px;
+		top: 53px;
+		position: absolute;
+		overflow: visible;
+		width: 238px;
+		white-space: nowrap;
+		line-height: 23px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+}
+@media (min-width: 1920px) {
+	.mediaViewInfo {
+		--web-view-name: web;
+		--web-view-id: web;
+		--web-scale-on-resize: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#web {
+		position: absolute;
+		display: block;
+		width: 1920px;
+		height: 8427px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: web;
+		--web-view-id: web;
+		--web-scale-on-resize: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#HEADER_ej {
+		position: absolute;
+		width: 1920px;
+		height: 5221px;
+		left: 0px;
+		top: -80px;
+		overflow: visible;
+	}
+	#BACKGROUND_ek {
+		fill: rgba(255,255,255,1);
+	}
+	.BACKGROUND_ek {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 5134px;
+		left: 0px;
+		top: 87px;
+	}
+	#ME_el {
+		position: absolute;
+		width: 1920px;
+		height: 1440px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#DESAINERGRAFIS_em {
+		left: 767px;
+		top: 900px;
+		position: absolute;
+		overflow: visible;
+		width: 387px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 46px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2.28px;
+	}
+	#INSTAGRAM_en {
+		opacity: 0.5;
+		position: absolute;
+		width: 41px;
+		height: 41px;
+		left: 1031.586px;
+		top: 1059px;
+		overflow: visible;
+	}
+	#WHATSAPP_eo {
+		opacity: 0.5;
+		position: absolute;
+		width: 41.416px;
+		height: 41.694px;
+		left: 939.004px;
+		top: 1057.311px;
+		overflow: visible;
+	}
+	#LINKEDIN_ep {
+		opacity: 0.5;
+		position: absolute;
+		width: 41.416px;
+		height: 38.725px;
+		left: 847.414px;
+		top: 1058.692px;
+		overflow: visible;
+	}
+	#ABOUT_eq {
+		position: absolute;
+		width: 1780px;
+		height: 1702.624px;
+		left: 140px;
+		top: 1213px;
+		overflow: visible;
+	}
+	#SKILL_er {
+		position: absolute;
+		width: 1415.214px;
+		height: 156.624px;
+		left: 0px;
+		top: 1546px;
+		overflow: visible;
+	}
+	#Adobe_Skill_es {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 220px;
+		white-space: nowrap;
+		line-height: 45px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#Lainnya_et {
+		left: 1131.214px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 151px;
+		white-space: nowrap;
+		line-height: 45px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#icon_eu {
+		position: absolute;
+		width: 1415.214px;
+		height: 88px;
+		left: 0px;
+		top: 68.624px;
+		overflow: visible;
+	}
+	#word_ev {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 124.423px;
+		height: 78.041px;
+		left: 1106.604px;
+		top: 2.624px;
+		overflow: visible;
+	}
+	#excel_ew {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 79.513px;
+		height: 75.832px;
+		left: 1230.027px;
+		top: 3.624px;
+		overflow: visible;
+	}
+	#ae_ex {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 73.623px;
+		height: 73.623px;
+		left: 364.856px;
+		top: 7.042px;
+		overflow: visible;
+	}
+	#xd_ey {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 73.623px;
+		height: 73.623px;
+		left: 456.071px;
+		top: 7.042px;
+		overflow: visible;
+	}
+	#pr_ez {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 73.623px;
+		height: 73.623px;
+		left: 273.642px;
+		top: 6.84px;
+		overflow: visible;
+	}
+	#ai_e {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 73.623px;
+		height: 73.623px;
+		left: 91.214px;
+		top: 6.84px;
+		overflow: visible;
+	}
+	#lr_e {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 73.623px;
+		height: 73.623px;
+		left: 182.428px;
+		top: 7.042px;
+		overflow: visible;
+	}
+	#ps_e {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 73.623px;
+		height: 73.623px;
+		left: 0px;
+		top: 7.042px;
+		overflow: visible;
+	}
+	#figma_e {
+		filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.702));
+		position: absolute;
+		width: 88px;
+		height: 88px;
+		left: 1327.214px;
+		top: 0px;
+		overflow: visible;
+	}
+	#BIODATA_e {
+		position: absolute;
+		width: 485px;
+		height: 174px;
+		left: 1030px;
+		top: 1211px;
+		overflow: visible;
+	}
+	#BIODATA_ANSWER_e {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 77px;
+		white-space: nowrap;
+		line-height: 38px;
+		margin-top: -9.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#BIODATA_TEXT_e {
+		left: 143px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 343px;
+		white-space: nowrap;
+		line-height: 38px;
+		margin-top: -9.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#SOFTSKILL_e {
+		position: absolute;
+		width: 756px;
+		height: 175px;
+		left: 0px;
+		top: 1212px;
+		overflow: visible;
+	}
+	#SOFTSKILL_EMPTY_BAR_e {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_e {
+		position: absolute;
+		overflow: visible;
+		width: 516px;
+		height: 20px;
+		left: 240px;
+		top: 0px;
+	}
+	#SOFTSKILL_EMPTY_BAR_fa {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_fa {
+		position: absolute;
+		overflow: visible;
+		width: 516px;
+		height: 20px;
+		left: 240px;
+		top: 77px;
+	}
+	#SOFTSKILL_EMPTY_BAR_fb {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_fb {
+		position: absolute;
+		overflow: visible;
+		width: 516px;
+		height: 20px;
+		left: 240px;
+		top: 39px;
+	}
+	#SOFTSKILL_EMPTY_BAR_fc {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_fc {
+		position: absolute;
+		overflow: visible;
+		width: 516px;
+		height: 21px;
+		left: 240px;
+		top: 116px;
+	}
+	#SOFTSKILL_EMPTY_BAR_fd {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_fd {
+		position: absolute;
+		overflow: visible;
+		width: 516px;
+		height: 19px;
+		left: 240px;
+		top: 156px;
+	}
+	#SOFTSKILL_STATUS_BAR_fd {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_fd {
+		position: absolute;
+		overflow: visible;
+		width: 401px;
+		height: 20px;
+		left: 240px;
+		top: 0px;
+	}
+	#SOFTSKILL_STATUS_BAR_fe {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_fe {
+		position: absolute;
+		overflow: visible;
+		width: 230px;
+		height: 20px;
+		left: 240px;
+		top: 77px;
+	}
+	#SOFTSKILL_STATUS_BAR_ff {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_ff {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 20px;
+		left: 240px;
+		top: 39px;
+	}
+	#SOFTSKILL_STATUS_BAR_fg {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_fg {
+		position: absolute;
+		overflow: visible;
+		width: 258px;
+		height: 21px;
+		left: 240px;
+		top: 116px;
+	}
+	#SOFTSKILL_STATUS_BAR_fh {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_fh {
+		position: absolute;
+		overflow: visible;
+		width: 258px;
+		height: 19px;
+		left: 240px;
+		top: 156px;
+	}
+	#SOFTSKILL_TEXT_fi {
+		left: 0px;
+		top: 1px;
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		white-space: nowrap;
+		line-height: 38px;
+		margin-top: -9.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_6_fj {
+		fill: rgba(222,222,222,1);
+	}
+	.Rectangle_6_fj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 177px;
+		left: 897px;
+		top: 1209px;
+	}
+	#Rectangle_7_fk {
+		fill: rgba(222,222,222,1);
+	}
+	.Rectangle_7_fk {
+		width: 3px;
+		height: 1604px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(66.683px, 317.058px) matrix(1,0,0,1,755.817,357.4419) rotate(-90deg);
+		transform-origin: center;
+	}
+	#Rectangle_8_fl {
+		fill: rgba(222,222,222,1);
+	}
+	.Rectangle_8_fl {
+		width: 3px;
+		height: 1604px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(66.683px, 317.058px) matrix(1,0,0,1,751.817,-5.5581) rotate(-90deg);
+		transform-origin: center;
+	}
+	#TENTANG_fm {
+		position: absolute;
+		width: 1780px;
+		height: 1198px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ABOUT_BACKGROUND_fn {
+		position: absolute;
+		width: 1597px;
+		height: 1198px;
+		left: 183px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ABOUT_JUDUL_fo {
+		left: 0px;
+		top: 275px;
+		position: absolute;
+		overflow: visible;
+		width: 129px;
+		white-space: nowrap;
+		line-height: 45px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#RESUME_BUTTON_fp {
+		position: absolute;
+		width: 186px;
+		height: 60px;
+		left: 157px;
+		top: 967px;
+		overflow: visible;
+	}
+	#resumekotak_fq {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.resumekotak_fq {
+		position: absolute;
+		overflow: visible;
+		width: 186px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#resume_fr {
+		left: 50.253px;
+		top: 16.001px;
+		position: absolute;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#CV_BUTTON_fs {
+		position: absolute;
+		width: 131px;
+		height: 60px;
+		left: 0px;
+		top: 967px;
+		overflow: visible;
+	}
+	#cvkotak_ft {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.cvkotak_ft {
+		position: absolute;
+		overflow: visible;
+		width: 131px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#Cv_fu {
+		left: 50px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#ABOUT_TEXT_fv {
+		left: 0px;
+		top: 349px;
+		position: absolute;
+		overflow: visible;
+		width: 625px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+	}
+	#EXPERIENCE_fw {
+		position: absolute;
+		width: 1920px;
+		height: 1020px;
+		left: 0px;
+		top: 3049px;
+		overflow: visible;
+	}
+	#PENGALAMAN_BACKGROUND_fx {
+		position: absolute;
+		width: 1920px;
+		height: 1020px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#PENGALAMAN_TEXT_fy {
+		position: absolute;
+		width: 1364px;
+		height: 612px;
+		left: 140px;
+		top: 192px;
+		overflow: visible;
+	}
+	#SERTIFIKAT_BUTTON_fz {
+		position: absolute;
+		width: 210px;
+		height: 60px;
+		left: 172px;
+		top: 552px;
+		overflow: visible;
+	}
+	#sertifikatkotak_f {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.sertifikatkotak_f {
+		position: absolute;
+		overflow: visible;
+		width: 210px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#sertifikattext_f {
+		left: 63.753px;
+		top: 16.001px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#KONTAK_BUTTON_f {
+		position: absolute;
+		width: 158px;
+		height: 60px;
+		left: 0px;
+		top: 552px;
+		overflow: visible;
+	}
+	#kontakkotak_f {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.kontakkotak_f {
+		position: absolute;
+		overflow: visible;
+		width: 158px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#kontak_f {
+		left: 43.252px;
+		top: 16.001px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#KASIR_f {
+		position: absolute;
+		width: 688px;
+		height: 75px;
+		left: 2px;
+		top: 395px;
+		overflow: visible;
+	}
+	#KASIR_TEXT_f {
+		left: 0px;
+		top: 48px;
+		position: absolute;
+		overflow: visible;
+		width: 689px;
+		white-space: nowrap;
+		line-height: 36px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+	}
+	#KASIR_SUB_f {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 552px;
+		white-space: nowrap;
+		line-height: 36px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+	}
+	#KASIR_RECTANGLE_f {
+		fill: rgba(42,42,42,1);
+	}
+	.KASIR_RECTANGLE_f {
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		height: 3px;
+		left: 0px;
+		top: 36px;
+	}
+	#DESAINER_f {
+		position: absolute;
+		width: 1233px;
+		height: 107px;
+		left: 2px;
+		top: 252px;
+		overflow: visible;
+	}
+	#DESAINER_TEXT_ga {
+		left: 0px;
+		top: 47px;
+		position: absolute;
+		overflow: visible;
+		width: 1234px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(255,255,255,1);
+	}
+	#DESAINER_SUB_gb {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 613px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(255,255,255,1);
+	}
+	#DESAINER_RECTANGLE_gc {
+		fill: rgba(42,42,42,1);
+	}
+	.DESAINER_RECTANGLE_gc {
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		height: 3px;
+		left: 0px;
+		top: 35px;
+	}
+	#AKUNTANSI_gd {
+		position: absolute;
+		width: 1362px;
+		height: 107px;
+		left: 2px;
+		top: 99px;
+		overflow: visible;
+	}
+	#AKUNTANSI_TEXT_ge {
+		left: 0px;
+		top: 47px;
+		position: absolute;
+		overflow: visible;
+		width: 1363px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(255,255,255,1);
+	}
+	#AKUNTANSI_SUB_gf {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 548px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(255,255,255,1);
+	}
+	#AKUNTANSI_RECTANGLE_gg {
+		fill: rgba(42,42,42,1);
+	}
+	.AKUNTANSI_RECTANGLE_gg {
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		height: 3px;
+		left: 0px;
+		top: 35px;
+	}
+	#EXPERIENCE_TEXT_gh {
+		left: 3px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 237px;
+		white-space: nowrap;
+		line-height: 45px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2px;
+	}
+	#EDUCATION_gi {
+		position: absolute;
+		width: 1920px;
+		height: 773px;
+		left: 0px;
+		top: 4069px;
+		overflow: visible;
+	}
+	#EDUCATION_BACKGROUND_gj {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.EDUCATION_BACKGROUND_gj {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 773px;
+		left: 0px;
+		top: 0px;
+	}
+	#NILAI_BUTTON_gk {
+		position: absolute;
+		width: 158px;
+		height: 60px;
+		left: 140px;
+		top: 540px;
+		overflow: visible;
+	}
+	#nilaikotak_gl {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_gl {
+		position: absolute;
+		overflow: visible;
+		width: 158px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#Nilai_gm {
+		left: 60px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Quicksand;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#SERTIFIKAT_BUTTON_gn {
+		position: absolute;
+		width: 204px;
+		height: 60px;
+		left: 318px;
+		top: 540px;
+		overflow: visible;
+	}
+	#sertifikatkotak_go {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.sertifikatkotak_go {
+		position: absolute;
+		overflow: visible;
+		width: 204px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sertifikat_gp {
+		left: 60px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#STIKI_LOGO_gq {
+		opacity: 0.25;
+		position: absolute;
+		width: 526px;
+		height: 394px;
+		left: 1366px;
+		top: 231px;
+		overflow: visible;
+	}
+	#EDUCATION_JUDUL_gr {
+		left: 140px;
+		top: 159px;
+		position: absolute;
+		overflow: visible;
+		width: 221px;
+		white-space: nowrap;
+		line-height: 45px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#EDUCATION_GROUP_gs {
+		position: absolute;
+		width: 1342px;
+		height: 148px;
+		left: 140px;
+		top: 310px;
+		overflow: visible;
+	}
+	#EDUCATION_TEXT_gt {
+		left: 0px;
+		top: 57px;
+		position: absolute;
+		overflow: visible;
+		width: 1343px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+	}
+	#EDUCATION_SUB_gu {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 722px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+	}
+	#OUTOFWORK_gv {
+		position: absolute;
+		width: 1920px;
+		height: 3329px;
+		left: 0px;
+		top: 4841px;
+		overflow: visible;
+	}
+	#OUTOFWORKBACKGROUND_gw {
+		fill: rgba(0,0,0,1);
+	}
+	.OUTOFWORKBACKGROUND_gw {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 3329px;
+		left: 0px;
+		top: 0px;
+	}
+	#IG_gx {
+		position: absolute;
+		width: 1920px;
+		height: 712px;
+		left: 0px;
+		top: 2398px;
+		overflow: visible;
+	}
+	#IG_BACKGROUND_gy {
+		position: absolute;
+		width: 1920px;
+		height: 712px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#IG_GROUP_gz {
+		position: absolute;
+		width: 487px;
+		height: 285px;
+		left: 141px;
+		top: 214px;
+		overflow: visible;
+	}
+	#IG_BUTTON_g {
+		position: absolute;
+		width: 214px;
+		height: 60px;
+		left: 0px;
+		top: 225px;
+		overflow: visible;
+	}
+	#nilaikotak_g {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_g {
+		position: absolute;
+		overflow: visible;
+		width: 214px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak_g {
+		left: 50px;
+		top: 19px;
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#IG_SUB_g {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 208px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(255,255,255,1);
+	}
+	#IG_TEXT_g {
+		left: 0px;
+		top: 83px;
+		position: absolute;
+		overflow: visible;
+		width: 488px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(255,255,255,1);
+	}
+	#NFT_g {
+		position: absolute;
+		width: 1920px;
+		height: 712px;
+		left: 0px;
+		top: 1646px;
+		overflow: visible;
+	}
+	#NFT_BACKGROUND_g {
+		fill: transparent;
+	}
+	.NFT_BACKGROUND_g {
+		overflow: hidden;
+		position: absolute;
+		width: 1920px;
+		height: 712px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#NFT_GROUP_g {
+		position: absolute;
+		width: 579px;
+		height: 315px;
+		left: 141px;
+		top: 199px;
+		overflow: visible;
+	}
+	#NFT_BUTTON_g {
+		position: absolute;
+		width: 214px;
+		height: 60px;
+		left: 0px;
+		top: 255px;
+		overflow: visible;
+	}
+	#nilaikotak_ha {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_ha {
+		position: absolute;
+		overflow: visible;
+		width: 214px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak_ha {
+		left: 50px;
+		top: 19px;
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#NFT_SUB_hb {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 170px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(255,255,255,1);
+	}
+	#NFT_TEXT_hc {
+		left: 0px;
+		top: 83px;
+		position: absolute;
+		overflow: visible;
+		width: 580px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(255,255,255,1);
+	}
+	#DG_hd {
+		position: absolute;
+		width: 1920px;
+		height: 712px;
+		left: 0px;
+		top: 894px;
+		overflow: visible;
+	}
+	#DG_BACKGROUND_he {
+		fill: rgba(82,161,164,1);
+	}
+	.DG_BACKGROUND_he {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 712px;
+		left: 0px;
+		top: 0px;
+	}
+	#DG_FOTO_hf {
+		position: absolute;
+		width: 1920px;
+		height: 712px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#n_X1_hg {
+		position: absolute;
+		width: 295px;
+		height: 295px;
+		left: 1025px;
+		top: 0px;
+		overflow: visible;
+	}
+	#PONDS_hh {
+		position: absolute;
+		width: 298px;
+		height: 298px;
+		left: 1333px;
+		top: 133px;
+		overflow: visible;
+	}
+	#PIA_hi {
+		position: absolute;
+		width: 211px;
+		height: 211px;
+		left: 1333px;
+		top: 443px;
+		overflow: visible;
+	}
+	#Cover_hj {
+		position: absolute;
+		width: 230px;
+		height: 416px;
+		left: 1644px;
+		top: 15px;
+		overflow: visible;
+	}
+	#Mask_Group_1_hk {
+		position: absolute;
+		width: 1906px;
+		height: 712px;
+		left: 14px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Mask_Group_2_hl {
+		position: absolute;
+		width: 1900px;
+		height: 712px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Mask_Group_3_hm {
+		position: absolute;
+		width: 1900px;
+		height: 712px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#DG_GROUP_hn {
+		position: absolute;
+		width: 619px;
+		height: 315px;
+		left: 141px;
+		top: 199px;
+		overflow: visible;
+	}
+	#DG_BUTTON_ho {
+		position: absolute;
+		width: 214px;
+		height: 60px;
+		left: 0px;
+		top: 255px;
+		overflow: visible;
+	}
+	#nilaikotak_hp {
+		fill: transparent;
+		stroke: rgba(142,185,201,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_hp {
+		position: absolute;
+		overflow: visible;
+		width: 214px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak_hq {
+		left: 50px;
+		top: 19px;
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(142,185,201,1);
+		letter-spacing: -0.6px;
+	}
+	#DG_SUB_hr {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 222px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(255,255,255,1);
+	}
+	#DG_TEXT_hs {
+		left: 0px;
+		top: 83px;
+		position: absolute;
+		overflow: visible;
+		width: 620px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(255,255,255,1);
+	}
+	#UIUX_ht {
+		position: absolute;
+		width: 1920px;
+		height: 712px;
+		left: 0px;
+		top: 142px;
+		overflow: visible;
+	}
+	#UIUX_BACKGROUND_hv {
+		fill: url(#UIUX_BACKGROUND_hv);
+	}
+	.UIUX_BACKGROUND_hv {
+		overflow: visible;
+		position: absolute;
+		width: 1920px;
+		height: 712px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#UIUX1_hw {
+		position: absolute;
+		width: 592px;
+		height: 670px;
+		left: 1307px;
+		top: 21px;
+		overflow: visible;
+	}
+	#SHADOW1_hx {
+		fill: transparent;
+	}
+	.SHADOW1_hx {
+		filter: drop-shadow(15px 11px 12px rgba(0, 0, 0, 0.471));
+		position: absolute;
+		overflow: visible;
+		width: 317px;
+		height: 638px;
+		left: 160px;
+		top: 36px;
+	}
+	#UI1_hy {
+		fill: transparent;
+	}
+	.UI1_hy {
+        border-radius: 30px;
+		overflow: hidden;
+		position: absolute;
+		width: 272px;
+		height: 597px;
+		left: 160px;
+		top: 40px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#PHONE1_hz {
+		position: absolute;
+		width: 592px;
+		height: 670px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#UIUX2_h {
+		position: absolute;
+		width: 592px;
+		height: 670px;
+		left: 949px;
+		top: 21px;
+		overflow: visible;
+	}
+	#SHADOW2_h {
+		fill: transparent;
+	}
+	.SHADOW2_h {
+		filter: drop-shadow(15px 11px 12px rgba(0, 0, 0, 0.471));
+		position: absolute;
+		overflow: visible;
+		width: 317px;
+		height: 638px;
+		left: 160px;
+		top: 36px;
+	}
+	#UI2_h {
+		fill: transparent;
+	}
+	.UI2_h {
+        border-radius: 30px;
+		overflow: hidden;
+		position: absolute;
+		width: 272px;
+		height: 597px;
+		left: 160px;
+		top: 40px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#PHONE2_h {
+		position: absolute;
+		width: 592px;
+		height: 670px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#UIUX_GROUP_h {
+		position: absolute;
+		width: 611px;
+		height: 315px;
+		left: 141px;
+		top: 199px;
+		overflow: visible;
+	}
+	#UIUX_BUTTON_h {
+		position: absolute;
+		width: 214px;
+		height: 60px;
+		left: 0px;
+		top: 255px;
+		overflow: visible;
+	}
+	#nilaikotak_h {
+		fill: transparent;
+		stroke: rgba(138,138,138,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_h {
+		position: absolute;
+		overflow: visible;
+		width: 214px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak_h {
+		left: 50px;
+		top: 19px;
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(138,138,138,1);
+		letter-spacing: -0.6px;
+	}
+	#UIUX_SUB_h {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 207px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(255,255,255,1);
+	}
+	#UIUX_TEXT_h {
+		left: 0px;
+		top: 83px;
+		position: absolute;
+		overflow: visible;
+		width: 612px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(255,255,255,1);
+	}
+	#OUTOFWORKTEXT_ia {
+		left: 140px;
+		top: 57px;
+		position: absolute;
+		overflow: visible;
+		width: 268px;
+		white-space: nowrap;
+		line-height: 45px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(225,225,225,1);
+		letter-spacing: 2px;
+	}
+	#FOOTER_ib {
+		position: absolute;
+		width: 1920px;
+		height: 257px;
+		left: 0px;
+		top: 8170px;
+		overflow: visible;
+	}
+	#BACKGROUND_FOOTER_ic {
+		fill: rgba(0,0,0,1);
+	}
+	.BACKGROUND_FOOTER_ic {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 257px;
+		left: 0px;
+		top: 0px;
+	}
+	#BARCODE_id {
+		position: absolute;
+		width: 99px;
+		height: 99px;
+		left: 307px;
+		top: 79px;
+		overflow: visible;
+	}
+	#KONTAK {
+		left: 651px;
+		top: 77px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		line-height: 38px;
+		margin-top: -7px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#SOSMED_if {
+		left: 473px;
+		top: 77px;
+		position: absolute;
+		overflow: visible;
+		width: 119px;
+		white-space: nowrap;
+		line-height: 38px;
+		margin-top: -7px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(167,167,167,1);
+	}
+	#EMAIL_ig {
+		left: 1046px;
+		top: 79px;
+		position: absolute;
+		overflow: visible;
+		width: 86px;
+		white-space: nowrap;
+		line-height: 38px;
+		margin-top: -7px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(167,167,167,1);
+	}
+	#TAMBAKSARI_ih {
+		left: 1198px;
+		top: 79px;
+		position: absolute;
+		overflow: visible;
+		width: 364px;
+		white-space: nowrap;
+		line-height: 36px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+	}
+}
+@media (min-width: 0px) and (max-width: 1279px) {
+	.mediaViewInfo {
+		--web-view-name: android;
+		--web-view-id: android;
+		--web-scale-on-resize: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#android {
+		position: absolute;
+		display: block;
+		width: 393px;
+		height: 4691px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: android;
+		--web-view-id: android;
+		--web-scale-on-resize: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#HEADER_ik {
+		position: absolute;
+		width: 944px;
+		height: 761px;
+		left: -308px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_5 {
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 393px;
+		height: 761px;
+		left: 308px;
+		top: 0px;
+	}
+	#backgroundheader {
+		position: absolute;
+		width: 944px;
+		height: 532px;
+		left: 0px;
+		top: 225px;
+		overflow: visible;
+	}
+	#instagram {
+		opacity: 0.5;
+		position: absolute;
+		width: 23px;
+		height: 22px;
+		left: 568.56px;
+		top: 718px;
+		overflow: visible;
+	}
+	#whatsapp {
+		opacity: 0.5;
+		position: absolute;
+		width: 21.505px;
+		height: 21.649px;
+		left: 493.475px;
+		top: 717.288px;
+		overflow: visible;
+	}
+	#linkedin {
+		opacity: 0.5;
+		position: absolute;
+		width: 21.505px;
+		height: 20.107px;
+		left: 417.44px;
+		top: 718.005px;
+		overflow: visible;
+	}
+	#RONALDO {
+		left: 452px;
+		top: 159px;
+		position: absolute;
+		overflow: visible;
+		width: 107px;
+		white-space: nowrap;
+		line-height: 44px;
+		margin-top: -7px;
+		text-align: center;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(167,167,167,1);
+		letter-spacing: 1.2px;
+	}
+	#desainer_grafis {
+		left: 452px;
+		top: 191px;
+		position: absolute;
+		overflow: visible;
+		width: 106px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(167,167,167,1);
+	}
+	#ABOUT_is {
+		position: absolute;
+		width: 358px;
+		height: 787.345px;
+		left: 18px;
+		top: 812px;
+		overflow: visible;
+	}
+	#SKILL_it {
+		position: absolute;
+		width: 355.896px;
+		height: 60.345px;
+		left: 2px;
+		top: 727px;
+		overflow: visible;
+	}
+	#Adobe_Skill_iu {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 74px;
+		white-space: nowrap;
+		line-height: 45px;
+		margin-top: -17.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#Lainnya_iv {
+		left: 254.215px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		line-height: 45px;
+		margin-top: -17.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#icon_iw {
+		position: absolute;
+		width: 355.896px;
+		height: 30.773px;
+		left: 0px;
+		top: 29.572px;
+		overflow: visible;
+	}
+	#word_ix {
+		position: absolute;
+		width: 43.51px;
+		height: 27.291px;
+		left: 247.976px;
+		top: 0.918px;
+		overflow: visible;
+	}
+	#excel_iy {
+		position: absolute;
+		width: 27.805px;
+		height: 26.518px;
+		left: 291.137px;
+		top: 1.267px;
+		overflow: visible;
+	}
+	#ae_iz {
+		position: absolute;
+		width: 25.746px;
+		height: 25.746px;
+		left: 127.589px;
+		top: 2.514px;
+		overflow: visible;
+	}
+	#xd_i {
+		position: absolute;
+		width: 25.746px;
+		height: 25.746px;
+		left: 159.487px;
+		top: 2.514px;
+		overflow: visible;
+	}
+	#pr_i {
+		position: absolute;
+		width: 25.746px;
+		height: 25.746px;
+		left: 95.692px;
+		top: 2.443px;
+		overflow: visible;
+	}
+	#ai_i {
+		position: absolute;
+		width: 25.746px;
+		height: 25.746px;
+		left: 31.897px;
+		top: 2.443px;
+		overflow: visible;
+	}
+	#lr_i {
+		position: absolute;
+		width: 25.746px;
+		height: 25.746px;
+		left: 63.795px;
+		top: 2.514px;
+		overflow: visible;
+	}
+	#ps_i {
+		position: absolute;
+		width: 25.746px;
+		height: 25.746px;
+		left: 0px;
+		top: 2.514px;
+		overflow: visible;
+	}
+	#figma_i {
+		position: absolute;
+		width: 30.773px;
+		height: 30.773px;
+		left: 325.123px;
+		top: 0px;
+		overflow: visible;
+	}
+	#BIODATA_i {
+		position: absolute;
+		width: 255px;
+		height: 84px;
+		left: 0px;
+		top: 581px;
+		overflow: visible;
+	}
+	#BIODATA_ANSWER_i {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#BIODATA_TEXT_i {
+		left: 75px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 181px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#SOFTSKILL_i {
+		position: absolute;
+		width: 286px;
+		height: 92px;
+		left: 0px;
+		top: 429px;
+		overflow: visible;
+	}
+	#SOFTSKILL_EMPTY_BAR_ja {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_ja {
+		position: absolute;
+		overflow: visible;
+		width: 195px;
+		height: 8px;
+		left: 91px;
+		top: 0px;
+	}
+	#SOFTSKILL_EMPTY_BAR_jb {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_jb {
+		position: absolute;
+		overflow: visible;
+		width: 195px;
+		height: 8px;
+		left: 91px;
+		top: 43px;
+	}
+	#SOFTSKILL_EMPTY_BAR_jc {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_jc {
+		position: absolute;
+		overflow: visible;
+		width: 195px;
+		height: 7px;
+		left: 91px;
+		top: 22px;
+	}
+	#SOFTSKILL_EMPTY_BAR_jd {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_jd {
+		position: absolute;
+		overflow: visible;
+		width: 195px;
+		height: 8px;
+		left: 91px;
+		top: 63px;
+	}
+	#SOFTSKILL_EMPTY_BAR_je {
+		fill: rgba(228,228,228,1);
+	}
+	.SOFTSKILL_EMPTY_BAR_je {
+		position: absolute;
+		overflow: visible;
+		width: 195px;
+		height: 7px;
+		left: 91px;
+		top: 85px;
+	}
+	#SOFTSKILL_STATUS_BAR_jf {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_jf {
+		position: absolute;
+		overflow: visible;
+		width: 152px;
+		height: 8px;
+		left: 91px;
+		top: 0px;
+	}
+	#SOFTSKILL_STATUS_BAR_jg {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_jg {
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		height: 8px;
+		left: 91px;
+		top: 43px;
+	}
+	#SOFTSKILL_STATUS_BAR_jh {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_jh {
+		position: absolute;
+		overflow: visible;
+		width: 142px;
+		height: 7px;
+		left: 91px;
+		top: 22px;
+	}
+	#SOFTSKILL_STATUS_BAR_ji {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_ji {
+		position: absolute;
+		overflow: visible;
+		width: 98px;
+		height: 8px;
+		left: 91px;
+		top: 63px;
+	}
+	#SOFTSKILL_STATUS_BAR_jj {
+		fill: rgba(112,112,112,1);
+	}
+	.SOFTSKILL_STATUS_BAR_jj {
+		position: absolute;
+		overflow: visible;
+		width: 98px;
+		height: 7px;
+		left: 91px;
+		top: 85px;
+	}
+	#SOFTSKILL_TEXT_jk {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_15 {
+		fill: rgba(222,222,222,1);
+	}
+	.Rectangle_15 {
+		width: 1px;
+		height: 358px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(89.683px, 194.058px) matrix(1,0,0,1,88.817,179.4419) rotate(90deg);
+		transform-origin: center;
+	}
+	#Rectangle_7_jm {
+		fill: rgba(222,222,222,1);
+	}
+	.Rectangle_7_jm {
+		width: 1px;
+		height: 358px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(89.683px, 194.058px) matrix(1,0,0,1,88.817,322.4419) rotate(-90deg);
+		transform-origin: center;
+	}
+	#Rectangle_8_jn {
+		fill: rgba(222,222,222,1);
+	}
+	.Rectangle_8_jn {
+		width: 1px;
+		height: 358px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(89.683px, 194.058px) matrix(1,0,0,1,88.817,24.4419) rotate(-90deg);
+		transform-origin: center;
+	}
+	#TENTANG_jo {
+		position: absolute;
+		width: 358px;
+		height: 366px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ABOUT_JUDUL_jp {
+		left: 147px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		line-height: 45px;
+		margin-top: -15px;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#RESUME_BUTTON_jq {
+		position: absolute;
+		width: 75px;
+		height: 25px;
+		left: 181px;
+		top: 341px;
+		overflow: visible;
+	}
+	#resumekotak_jr {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.resumekotak_jr {
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		height: 25px;
+		left: 0px;
+		top: 0px;
+	}
+	#resume_js {
+		left: 20px;
+		top: 7px;
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#CV_BUTTON_jt {
+		position: absolute;
+		width: 65px;
+		height: 25px;
+		left: 101px;
+		top: 341px;
+		overflow: visible;
+	}
+	#cvkotak_ju {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.cvkotak_ju {
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		height: 25px;
+		left: 0px;
+		top: 0px;
+	}
+	#Cv_jv {
+		left: 26px;
+		top: 7px;
+		position: absolute;
+		overflow: visible;
+		width: 15px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#ABOUT_TEXT_jw {
+		left: 0px;
+		top: 55px;
+		position: absolute;
+		overflow: visible;
+		width: 359px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -5px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#EXPERIENCE_jx {
+		position: absolute;
+		width: 1112px;
+		height: 671px;
+		left: -380px;
+		top: 1648px;
+		overflow: visible;
+	}
+	#PENGALAMAN_BACKGROUND_jy {
+		position: absolute;
+		width: 1112px;
+		height: 671px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#PENGALAMAN_TEXT_jz {
+		position: absolute;
+		width: 350px;
+		height: 469px;
+		left: 402px;
+		top: 92px;
+		overflow: visible;
+	}
+	#SERTIFIKAT_BUTTON_j {
+		position: absolute;
+		width: 108px;
+		height: 35px;
+		left: 172px;
+		top: 434px;
+		overflow: visible;
+	}
+	#sertifikatkotak_j {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.sertifikatkotak_j {
+		position: absolute;
+		overflow: visible;
+		width: 108px;
+		height: 35px;
+		left: 0px;
+		top: 0px;
+	}
+	#sertifikattext_j {
+		left: 37px;
+		top: 11.5px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#KONTAK_BUTTON_j {
+		position: absolute;
+		width: 83px;
+		height: 35px;
+		left: 69px;
+		top: 434px;
+		overflow: visible;
+	}
+	#kontakkotak_j {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.kontakkotak_j {
+		position: absolute;
+		overflow: visible;
+		width: 83px;
+		height: 35px;
+		left: 0px;
+		top: 0px;
+	}
+	#kontak_j {
+		left: 26.5px;
+		top: 11.5px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#KASIR_j {
+		position: absolute;
+		width: 312px;
+		height: 51px;
+		left: 19px;
+		top: 346px;
+		overflow: visible;
+	}
+	#KASIR_TEXT_j {
+		left: 6px;
+		top: 39px;
+		position: absolute;
+		overflow: visible;
+		width: 300px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#KASIR_SUB_j {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 313px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+	#KASIR_RECTANGLE_j {
+		fill: rgba(42,42,42,1);
+	}
+	.KASIR_RECTANGLE_j {
+		position: absolute;
+		overflow: visible;
+		width: 312px;
+		height: 1px;
+		left: 0px;
+		top: 26px;
+	}
+	#DESAINER_ka {
+		position: absolute;
+		width: 342px;
+		height: 91px;
+		left: 2.5px;
+		top: 208px;
+		overflow: visible;
+	}
+	#DESAINER_TEXT_kb {
+		left: 0px;
+		top: 41px;
+		position: absolute;
+		overflow: visible;
+		width: 343px;
+		white-space: nowrap;
+		line-height: 19px;
+		margin-top: -4.5px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#DESAINER_SUB_kc {
+		left: 5.5px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 335px;
+		white-space: nowrap;
+		line-height: 19px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#DESAINER_RECTANGLE_kd {
+		fill: rgba(42,42,42,1);
+	}
+	.DESAINER_RECTANGLE_kd {
+		position: absolute;
+		overflow: visible;
+		width: 334px;
+		height: 2px;
+		left: 5.5px;
+		top: 26px;
+	}
+	#AKUNTANSI_ke {
+		position: absolute;
+		width: 350px;
+		height: 106px;
+		left: 0px;
+		top: 56px;
+		overflow: visible;
+	}
+	#AKUNTANSI_TEXT_kf {
+		left: 0px;
+		top: 37px;
+		position: absolute;
+		overflow: visible;
+		width: 351px;
+		white-space: nowrap;
+		line-height: 19px;
+		margin-top: -4.5px;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#AKUNTANSI_SUB_kg {
+		left: 26px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 299px;
+		white-space: nowrap;
+		line-height: 19px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#AKUNTANSI_RECTANGLE_kh {
+		fill: rgba(42,42,42,1);
+	}
+	.AKUNTANSI_RECTANGLE_kh {
+		position: absolute;
+		overflow: visible;
+		width: 298px;
+		height: 1px;
+		left: 26px;
+		top: 26px;
+	}
+	#EXPERIENCE_TEXT_ki {
+		left: 116px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 119px;
+		white-space: nowrap;
+		line-height: 26px;
+		margin-top: -5.5px;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2px;
+	}
+	#EDUCATION_kj {
+		position: absolute;
+		width: 393px;
+		height: 522px;
+		left: 0px;
+		top: 2319px;
+		overflow: visible;
+	}
+	#EDUCATION_BACKGROUND_kk {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.EDUCATION_BACKGROUND_kk {
+		position: absolute;
+		overflow: visible;
+		width: 393px;
+		height: 522px;
+		left: 0px;
+		top: 0px;
+	}
+	#NILAI_BUTTON_kl {
+		position: absolute;
+		width: 77px;
+		height: 36px;
+		left: 103px;
+		top: 366px;
+		overflow: visible;
+	}
+	#nilaikotak_km {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_km {
+		position: absolute;
+		overflow: visible;
+		width: 77px;
+		height: 36px;
+		left: 0px;
+		top: 0px;
+	}
+	#Nilai_kn {
+		left: 29px;
+		top: 12px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#SERTIFIKAT_BUTTON_ko {
+		position: absolute;
+		width: 111px;
+		height: 36px;
+		left: 195px;
+		top: 366px;
+		overflow: visible;
+	}
+	#sertifikatkotak_kp {
+		fill: transparent;
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.sertifikatkotak_kp {
+		position: absolute;
+		overflow: visible;
+		width: 111px;
+		height: 36px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sertifikat_kq {
+		left: 38px;
+		top: 12px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -0.6px;
+	}
+	#STIKI_LOGO_kr {
+		opacity: 0.1;
+		position: absolute;
+		width: 343px;
+		height: 257px;
+		left: 33px;
+		top: 114px;
+		overflow: visible;
+	}
+	#EDUCATION_JUDUL_ks {
+		left: 153px;
+		top: 99px;
+		position: absolute;
+		overflow: visible;
+		width: 89px;
+		white-space: nowrap;
+		line-height: 45px;
+		margin-top: -16.5px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 2px;
+	}
+	#EDUCATION_GROUP_kt {
+		position: absolute;
+		width: 332px;
+		height: 120px;
+		left: 33px;
+		top: 180px;
+		overflow: visible;
+	}
+	#EDUCATION_TEXT_ku {
+		left: 0px;
+		top: 36px;
+		position: absolute;
+		overflow: visible;
+		width: 333px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+	}
+	#EDUCATION_SUB_kv {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(0,0,0,1);
+	}
+	#OUTOFWORK_kw {
+		position: absolute;
+		width: 1432.393px;
+		height: 1349px;
+		left: -280px;
+		top: 2841px;
+		overflow: visible;
+	}
+	#OUTOFWORKBACKGROUND_kx {
+		fill: rgba(0,0,0,1);
+	}
+	.OUTOFWORKBACKGROUND_kx {
+		position: absolute;
+		overflow: visible;
+		width: 393px;
+		height: 1349px;
+		left: 280px;
+		top: 0px;
+	}
+	#IG_ky {
+		position: absolute;
+		width: 752.198px;
+		height: 278.94px;
+		left: 162px;
+		top: 965.602px;
+		overflow: visible;
+	}
+	#IG_BACKGROUND_kz {
+		position: absolute;
+		width: 752.198px;
+		height: 278.94px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#IG_GROUP_k {
+		position: absolute;
+		width: 140px;
+		height: 132px;
+		left: 153px;
+		top: 73.47px;
+		overflow: visible;
+	}
+	#IG_BUTTON_k {
+		position: absolute;
+		width: 91px;
+		height: 26px;
+		left: 0px;
+		top: 106px;
+		overflow: visible;
+	}
+	#nilaikotak_k {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_k {
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak_k {
+		left: 17.5px;
+		top: 7px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#IG_SUB_k {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#IG_TEXT_k {
+		left: 0px;
+		top: 24px;
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		height: 69px;
+		line-height: 14px;
+		margin-top: -2px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#NFT_k {
+		position: absolute;
+		width: 752.198px;
+		height: 278.94px;
+		left: 0px;
+		top: 670px;
+		overflow: visible;
+	}
+	#NFT_BACKGROUND_k {
+		fill: transparent;
+	}
+	.NFT_BACKGROUND_k {
+		overflow: hidden;
+		position: absolute;
+		width: 752.198px;
+		height: 278.94px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#NFT_GROUP_k {
+		position: absolute;
+		width: 178px;
+		height: 157px;
+		left: 315px;
+		top: 61px;
+		overflow: visible;
+	}
+	#NFT_BUTTON_k {
+		position: absolute;
+		width: 91px;
+		height: 26px;
+		left: 0px;
+		top: 131px;
+		overflow: visible;
+	}
+	#nilaikotak_la {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_la {
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak_lb {
+		left: 18px;
+		top: 7px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.6px;
+	}
+	#NFT_SUB_lc {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#NFT_TEXT_ld {
+		left: 0px;
+		top: 24px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		height: 98px;
+		line-height: 14px;
+		margin-top: -2px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#DG_le {
+		position: absolute;
+		width: 1317px;
+		height: 279px;
+		left: 110px;
+		top: 374px;
+		overflow: visible;
+	}
+	#DG_BACKGROUND_lf {
+		fill: rgba(82,161,164,1);
+	}
+	.DG_BACKGROUND_lf {
+		position: absolute;
+		overflow: visible;
+		width: 1147px;
+		height: 278.94px;
+		left: 170px;
+		top: 0px;
+	}
+	#DG_FOTO_lg {
+		position: absolute;
+		width: 751px;
+		height: 279px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#n_X1_lh {
+		position: absolute;
+		width: 115px;
+		height: 115px;
+		left: 401px;
+		top: 0px;
+		overflow: visible;
+	}
+	#PONDS_li {
+		position: absolute;
+		width: 116px;
+		height: 117px;
+		left: 522px;
+		top: 53px;
+		overflow: visible;
+	}
+	#PIA_lj {
+		position: absolute;
+		width: 82px;
+		height: 82px;
+		left: 522px;
+		top: 174px;
+		overflow: visible;
+	}
+	#Cover_lk {
+		position: absolute;
+		width: 90px;
+		height: 162px;
+		left: 644px;
+		top: 6px;
+		overflow: visible;
+	}
+	#Mask_Group_1_ll {
+		position: absolute;
+		width: 745px;
+		height: 279px;
+		left: 6px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Mask_Group_2_lm {
+		position: absolute;
+		width: 743px;
+		height: 279px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Mask_Group_3_ln {
+		position: absolute;
+		width: 743px;
+		height: 279px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#DG_GROUP_lo {
+		position: absolute;
+		width: 170px;
+		height: 160.42px;
+		left: 205px;
+		top: 59.29px;
+		overflow: visible;
+	}
+	#DG_SUB_lp {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 67px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#DG_TEXT_lq {
+		left: 0px;
+		top: 26px;
+		position: absolute;
+		overflow: visible;
+		width: 171px;
+		height: 101px;
+		line-height: 14px;
+		margin-top: -2px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#UIUX_BUTTON_lr {
+		position: absolute;
+		width: 91px;
+		height: 26px;
+		left: 0px;
+		top: 134.42px;
+		overflow: visible;
+	}
+	#nilaikotak_ls {
+		fill: transparent;
+		stroke: rgba(142,185,201,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_ls {
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak_lt {
+		left: 18px;
+		top: 7px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(142,185,201,1);
+		letter-spacing: -0.6px;
+	}
+	#UIUX_lu {
+		position: absolute;
+		width: 1152.393px;
+		height: 278.939px;
+		left: 280px;
+		top: 78.398px;
+		overflow: visible;
+	}
+	#UIUX_BACKGROUND_lw {
+		fill: url(#UIUX_BACKGROUND_lw);
+	}
+	.UIUX_BACKGROUND_lw {
+		overflow: visible;
+		position: absolute;
+		width: 1152.393px;
+		height: 278.939px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#UIUX1_lx {
+		position: absolute;
+		width: 229px;
+		height: 259px;
+		left: 173px;
+		top: 9.602px;
+		overflow: visible;
+	}
+	#SHADOW1_ly {
+		fill: transparent;
+	}
+	.SHADOW1_ly {
+		filter: drop-shadow(15px 11px 12px rgba(0, 0, 0, 0.471));
+		position: absolute;
+		overflow: visible;
+		width: 145px;
+		height: 269px;
+		left: 61px;
+		top: 13px;
+	}
+	#UI1_lz {
+		fill: transparent;
+	}
+	.UI1_lz {
+        border-radius: 30px;
+		overflow: hidden;
+		position: absolute;
+		width: 106px;
+		height: 233px;
+		left: 61px;
+		top: 15px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#PHONE1_l {
+		position: absolute;
+		width: 229px;
+		height: 259px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#UIUX_GROUP_l {
+		position: absolute;
+		width: 158px;
+		height: 164px;
+		left: 35px;
+		top: 57.602px;
+		overflow: visible;
+	}
+	#UIUX_BUTTON_l {
+		position: absolute;
+		width: 91px;
+		height: 26px;
+		left: 0px;
+		top: 138px;
+		overflow: visible;
+	}
+	#nilaikotak_l {
+		fill: transparent;
+		stroke: rgba(138,138,138,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.nilaikotak_l {
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+	}
+	#lebih_banyak_l {
+		left: 18px;
+		top: 7px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(138,138,138,1);
+		letter-spacing: -0.6px;
+	}
+	#UIUX_SUB_l {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bebas Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#UIUX_TEXT_l {
+		left: 0px;
+		top: 29px;
+		position: absolute;
+		overflow: visible;
+		width: 159px;
+		height: 99px;
+		line-height: 14px;
+		margin-top: -2px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#OUTOFWORKTEXT_l {
+		left: 423px;
+		top: 32px;
+		position: absolute;
+		overflow: visible;
+		width: 108px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(223,223,223,1);
+		letter-spacing: 2px;
+	}
+	#FOOTER_l {
+		position: absolute;
+		width: 393px;
+		height: 501px;
+		left: 0px;
+		top: 4190px;
+		overflow: visible;
+	}
+	#BACKGROUND_FOOTER_l {
+		fill: rgba(0,0,0,1);
+	}
+	.BACKGROUND_FOOTER_l {
+		position: absolute;
+		overflow: visible;
+		width: 393px;
+		height: 501px;
+		left: 0px;
+		top: 0px;
+	}
+	#BARCODE_ma {
+		position: absolute;
+		width: 99px;
+		height: 99px;
+		left: 147px;
+		top: 84px;
+		overflow: visible;
+	}
+	#KONTAK_mb {
+		left: 154px;
+		top: 259px;
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		white-space: nowrap;
+		line-height: 14px;
+		margin-top: -2px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#SOSMED_mc {
+		left: 82px;
+		top: 259px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		line-height: 14px;
+		margin-top: -2px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(167,167,167,1);
+	}
+	#EMAIL_md {
+		left: 82px;
+		top: 336px;
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		white-space: nowrap;
+		line-height: 14px;
+		margin-top: -2px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(167,167,167,1);
+	}
+	#TAMBAKSARI_me {
+		left: 154px;
+		top: 336px;
+		position: absolute;
+		overflow: visible;
+		width: 159px;
+		white-space: nowrap;
+		line-height: 14px;
+		margin-top: -2px;
+		text-align: left;
+		font-family: Century Gothic;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+}
